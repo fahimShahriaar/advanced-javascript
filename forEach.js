@@ -4,9 +4,10 @@ let arrSquare = [];
 console.log(arr);
 
 arr.forEach(function(x){
-    x = x * x;
+    let x = x * x;
     arrSquare.push(x);
 })
+console.log(arr);
 console.log(arrSquare);
 
 arr.forEach(function(element, index, array) {
